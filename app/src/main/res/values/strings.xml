@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Projet patient</string>
+    <string name="select">Selectionner le numéro</string>
+    <string name="ajouter">Ajouter un numéro</string>
+</resources>

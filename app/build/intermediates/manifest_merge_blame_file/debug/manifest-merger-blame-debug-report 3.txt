@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dropdownmenu"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_CONTACTS" />
+11-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:4:1-67
+11-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:4:18-65
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:5:1-64
+12-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:5:18-61
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:6:1-74
+13-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:6:18-72
+14    <uses-permission android:name="android.permission.BLUETOOTH" />
+14-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:5:1-64
+14-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:5:18-61
+15
+16    <application
+16-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:9:5-26:19
+17        android:allowBackup="true"
+17-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:10:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\antoi\.gradle\caches\transforms-3\1c6bf066d86cb24cdbec24ff431f26f8\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:12:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:14:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.DropdownMenu" >
+25-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:15:9-50
+26        <activity
+26-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:16:9-23:20
+27            android:name="com.example.dropdownmenu.PageSaisie"
+27-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:17:13-39
+28            android:exported="true" >
+28-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:18:13-36
+29            <intent-filter>
+29-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:19:13-22:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:20:17-69
+30-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:21:17-77
+32-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:21:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.example.dropdownmenu.PageSms" />
+35-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:24:9-54
+35-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:24:19-42
+36        <activity android:name="com.example.dropdownmenu.PageModification" />
+36-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:25:9-63
+36-->C:\Users\antoi\Documents\V2\app\src\main\AndroidManifest.xml:25:19-51
+37    </application>
+38
+39</manifest>

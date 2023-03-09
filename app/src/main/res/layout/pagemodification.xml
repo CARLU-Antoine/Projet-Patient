@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_back"
+        android:id="@+id/buttonRetourMain"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/dropdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/buttonRetourMain"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@id/listContact"
+            android:hint="@string/ajouter"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+            <AutoCompleteTextView
+                android:id="@+id/values"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:drawableStart="@drawable/ic_contact"
+                android:drawablePadding="12dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:inputType="none"
+                android:drawableLeft="@drawable/ic_contact"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintBottom_toBottomOf="@id/buttonRetourMain"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/listContact"
+        android:background="@drawable/ic_add"
+        android:id="@+id/ajouterNumero" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toBottomOf="@id/buttonRetourMain"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/ajouterNumero"
+        app:layout_constraintTop_toTopOf="@id/listContact"
+        android:background="@drawable/ic_delete_all"
+        android:id="@+id/supprimerNumeroAll"/>
+
+    <ListView
+        android:id="@+id/listContact"
+        android:layout_width="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="300dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewNomModif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/listContact"
+        android:text="Nom"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonModifierNom"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/textViewNomModif"
+        app:layout_constraintTop_toTopOf="@id/listContact"
+        android:background="@drawable/ic_edit" />
+
+    <TextView
+        android:id="@+id/textViewPrenomModif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="60dp"
+        android:text="Prenom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/buttonModifierNom"
+        app:layout_constraintTop_toTopOf="@id/listContact" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonModifierPrenom"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/textViewPrenomModif"
+        app:layout_constraintTop_toTopOf="@id/listContact"
+        android:background="@drawable/ic_edit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
