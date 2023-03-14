@@ -295,21 +295,21 @@ public class PageSms extends AppCompatActivity {
         public void onScanResult(int callbackType, ScanResult result) {
             super.onScanResult(callbackType, result);
 
-
-
             // The Eddystone UUID for detecting beacons
             String EDDYSTONE_UUID = "0000FEAA-0000-1000-8000-00805F9B34FB";
 
             // The MAC address of the beacon to detect
-            String BEACON_MAC_ADDRESS = "CA:C3:45:D7:92:9D";
+            String BEACON_MAC_ADDRESS_piece1 = "CA:C3:45:D7:92:9D";
+
+            // The MAC address of the beacon to detect
+            String BEACON_MAC_ADDRESS_piece2 = "CA:C3:45:D7:92:9Q";
 
             // Check if the scan result contains Eddystone UUID
             List<ParcelUuid> uuids = result.getScanRecord().getServiceUuids();
 
             String macAddress = result.getDevice().getAddress();
 
-            if (uuids != null && uuids.contains(ParcelUuid.fromString(EDDYSTONE_UUID))
-                    && macAddress.equals(BEACON_MAC_ADDRESS)) {
+            if (uuids != null && uuids.contains(ParcelUuid.fromString(EDDYSTONE_UUID))) {
                 int rssi = result.getRssi();
                 KalmanFilter kalmanFilter = new KalmanFilter(0.008, 0.05);
                 TextView labelDistanceTexte, labelDistanceValeur, labelDistanceMetre;
@@ -339,38 +339,44 @@ public class PageSms extends AppCompatActivity {
 
                 String metreMessage = (String) labelDistanceMetre.getText();
                 String messsageUtilisateurPanne, messsageUtilisateurProblemeMedical, messsageUtilisateurBesoinAide;
+                String piece = null;
 
+                if(macAddress.equals(BEACON_MAC_ADDRESS_piece1)){
+                    piece="pièce 1";
+                }else if (macAddress.equals(BEACON_MAC_ADDRESS_piece2)){
+                    piece="pièce 2";
+                }
 
                 if(nomModif.isEmpty() && prenomModif.isEmpty()) {
-                    messsageUtilisateurPanne="Le patient "+prenomSauvegarde+" "+nomSauvegarde+" a une panne ! Il est à une distance de "+ distanceValeur+ metreMessage+" .";
-                    messsageUtilisateurProblemeMedical="Le patient "+prenomSauvegarde+" "+nomSauvegarde+" a un problème medical! Il est à une distance de "+ distanceValeur+ metreMessage+" .";
-                    messsageUtilisateurBesoinAide="Le patient "+prenomSauvegarde+" "+nomSauvegarde+" a besoin d'aide ! Il est à une distance de "+ distanceValeur+ metreMessage+" .";
+                    messsageUtilisateurPanne="Le patient "+prenomSauvegarde+" "+nomSauvegarde+" a une panne ! Il est dans la " +piece+ " et à une distance de "+ distanceValeur+ metreMessage+" .";
+                    messsageUtilisateurProblemeMedical="Le patient "+prenomSauvegarde+" "+nomSauvegarde+" a un problème medical! Il est dans la "+piece+" et à une distance de "+ distanceValeur+ metreMessage+" .";
+                    messsageUtilisateurBesoinAide="Le patient "+prenomSauvegarde+" "+nomSauvegarde+" a besoin d'aide ! Il est dans la "+piece+ " et à une distance de "+ distanceValeur+ metreMessage+" .";
                     //création d'un objet permission afin de l'utiliser
                     smsPanne = new Sms(messsageUtilisateurPanne,PageSms.this);
                     smsProblemeMedical = new Sms(messsageUtilisateurProblemeMedical,PageSms.this);
                     smsBesoinAide = new Sms(messsageUtilisateurBesoinAide,PageSms.this);
                 }else if (!nomModif.isEmpty() && !prenomModif.isEmpty()){
-                    messsageUtilisateurPanne="Le patient "+prenomModif+" "+nomModif+" a une panne ! Il est à une distance de "+ distanceValeur+ metreMessage+" .";
-                    messsageUtilisateurProblemeMedical="Le patient "+prenomModif+" "+nomModif+" a un problème medical! Il est à une distance de "+ distanceValeur+ metreMessage+" .";
-                    messsageUtilisateurBesoinAide="Le patient "+prenomModif+" "+nomModif+" a besoin d'aide ! Il est à une distance de "+ distanceValeur+ metreMessage+" .";
+                    messsageUtilisateurPanne="Le patient "+prenomModif+" "+nomModif+" a une panne ! Il est dans la "+piece+" et à une distance de "+ distanceValeur+ metreMessage+" .";
+                    messsageUtilisateurProblemeMedical="Le patient "+prenomModif+" "+nomModif+" a un problème medical! Il est dans la " +piece+" et à une distance de "+ distanceValeur+ metreMessage+" .";
+                    messsageUtilisateurBesoinAide="Le patient "+prenomModif+" "+nomModif+" a besoin d'aide ! Il est dans la "+piece+" et à une distance de "+ distanceValeur+ metreMessage+" .";
 
                     //création d'un objet permission afin de l'utiliser
                     smsPanne = new Sms(messsageUtilisateurPanne,PageSms.this);
                     smsProblemeMedical = new Sms(messsageUtilisateurProblemeMedical,PageSms.this);
                     smsBesoinAide = new Sms(messsageUtilisateurBesoinAide,PageSms.this);
                 }else if(!nomModif.isEmpty() && prenomModif.isEmpty()){
-                    messsageUtilisateurPanne="Le patient "+prenomSauvegarde+" "+nomModif+" a une panne ! Il est à une distance de "+ distanceValeur+ metreMessage+" .";
-                    messsageUtilisateurProblemeMedical="Le patient "+prenomSauvegarde+" "+nomModif+" a un problème medical! Il est à une distance de "+ distanceValeur+ metreMessage+" .";
-                    messsageUtilisateurBesoinAide="Le patient "+prenomSauvegarde+" "+nomModif+" a besoin d'aide ! Il est à une distance de "+ distanceValeur+ metreMessage+" .";
+                    messsageUtilisateurPanne="Le patient "+prenomSauvegarde+" "+nomModif+" a une panne ! Il est dans la "+piece+" et à une distance de "+ distanceValeur+ metreMessage+" .";
+                    messsageUtilisateurProblemeMedical="Le patient "+prenomSauvegarde+" "+nomModif+" a un problème medical! Il est dans la "+piece+" et à une distance de "+ distanceValeur+ metreMessage+" .";
+                    messsageUtilisateurBesoinAide="Le patient "+prenomSauvegarde+" "+nomModif+" a besoin d'aide ! Il est dans la "+piece+" et à une distance de "+ distanceValeur+ metreMessage+" .";
 
                     //création d'un objet permission afin de l'utiliser
                     smsPanne = new Sms(messsageUtilisateurPanne,PageSms.this);
                     smsProblemeMedical = new Sms(messsageUtilisateurProblemeMedical,PageSms.this);
                     smsBesoinAide = new Sms(messsageUtilisateurBesoinAide,PageSms.this);
                 }else if(!prenomModif.isEmpty() && nomModif.isEmpty()){
-                    messsageUtilisateurPanne="Le patient "+prenomModif+" "+nomSauvegarde+" a une panne ! Il est à une distance de "+ distanceValeur+ metreMessage+" .";
-                    messsageUtilisateurProblemeMedical="Le patient "+prenomModif+" "+nomSauvegarde+" a un problème medical! Il est à une distance de "+ distanceValeur+ metreMessage+" .";
-                    messsageUtilisateurBesoinAide="Le patient "+prenomModif+" "+nomSauvegarde+" a besoin d'aide !  Il est à une distance de "+ distanceValeur+ metreMessage+" .";
+                    messsageUtilisateurPanne="Le patient "+prenomModif+" "+nomSauvegarde+" a une panne ! Il est dans la "+piece+" et à une distance de "+ distanceValeur+ metreMessage+" .";
+                    messsageUtilisateurProblemeMedical="Le patient "+prenomModif+" "+nomSauvegarde+" a un problème medical! Il est dans la "+piece+" et à une distance de "+ distanceValeur+ metreMessage+" .";
+                    messsageUtilisateurBesoinAide="Le patient "+prenomModif+" "+nomSauvegarde+" a besoin d'aide ! Il est dans la "+piece+" et à une distance de "+ distanceValeur+ metreMessage+" .";
                     //création d'un objet permission afin de l'utiliser
                     smsPanne = new Sms(messsageUtilisateurPanne,PageSms.this);
                     smsProblemeMedical = new Sms(messsageUtilisateurProblemeMedical,PageSms.this);
