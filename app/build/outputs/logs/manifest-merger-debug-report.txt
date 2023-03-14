@@ -1,236 +1,244 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-31:12
-MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/717709783950e9434de677aec6562a19/transformed/play-services-location-18.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.material:material:1.4.0] /Users/antoinecarlu/.gradle/caches/transforms-3/5a93eff03bf8fe774b3f017711229a9a/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/antoinecarlu/.gradle/caches/transforms-3/1c2650bf87a8433398d47b6a0cbffc96/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/antoinecarlu/.gradle/caches/transforms-3/33c9692ec212d129fc327a42a91ce4a3/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/af36641346b24ec91dddc629c21b5f56/transformed/play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/370a1532f1259dd526c956656a780416/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/antoinecarlu/.gradle/caches/transforms-3/71eaf88862d11480755394420427ce85/transformed/play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/8f1f5c87ada37790b087320668cea045/transformed/play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b975d4bc4d6d45f491a86fff0fa3caaf/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.4] /Users/antoinecarlu/.gradle/caches/transforms-3/e7d6078c82126b4784a754ea127c878a/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.3] /Users/antoinecarlu/.gradle/caches/transforms-3/2b9535999de0ac7c2761064a98e6f823/transformed/activity-1.2.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/antoinecarlu/.gradle/caches/transforms-3/2fbf2930bd9fb2a7ba200c280008ba63/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/f33401e088e03b4906c1e1ee487642e4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/fe0fd5ae30eba395a4c7b39f593407e5/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/ab31e87eda470bd398b04a6c1f020d62/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b96256539dbd15fe05ef3f774d34b33b/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1282e2a4b56306d4b655af35a574b455/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/c51b904150fd2875fe24ebca6a6abd7f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1b2c2bc523e43a8695e5871c17c75f28/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/aa92256759ef0c53a213da8083e00652/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/f6bfb8387aa67fa73508f490ecd23a95/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/0669cfa2680cb1a246f3cde1cbb2ad91/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/3d5ce58965b903c0a1e8c29e9c793adb/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1c6bf066d86cb24cdbec24ff431f26f8/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b1ff8782cfcecfc397dad65b90e9c690/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/e9ae20e8079484d090bfa74860d52111/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/e04496786906814db94b56fa73485fda/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/fab91f2a09ab99150b828e3da0c20b68/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/f557084dc67a47ec19b88ea9dd5bd78f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/fa3659a04c6e45d556b5f8662112b28b/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/antoinecarlu/.gradle/caches/transforms-3/4acf5e1ffd3dd0501ffb513566a1fad9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/36b41f1cb5ac05fa3d5523198ccb9ec5/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/bf204cc5d1ee021a0b779a40e33c278f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/11d2d4457fb0da6aec09850e84a11749/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/86cac07897472df51478ab51cbbaba04/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b72326ebc58ae513a4b2ca23b3b41f53/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/56a60aa11c00550ac2067dc311230fea/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/5c31521eb266c26ef211a1f53b56b07e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/66860c319137074465b1f3af9d4ca7e4/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/26c4f5c27e161f1d7db0ebabf0f8941f/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/731940417dd68d7cbf1a1138f413b741/transformed/play-services-location-19.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/antoinecarlu/.gradle/caches/transforms-3/49dd37bf10937f4a5031c2e2032cd3be/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/antoinecarlu/.gradle/caches/transforms-3/4d71e3e19f302f0b9574236fa79cef70/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/antoinecarlu/.gradle/caches/transforms-3/bf3c829ff63d9723e4885b938f8b52da/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1cc2b367f149bb3b019e76f79b6bc95b/transformed/play-services-base-18.0.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/27c5873497c0cfdfba11e55104c496cc/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/514d66b6b822f71e4f7c50e215ecce5c/transformed/play-services-tasks-18.0.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/732ce7e397b7f0acc6a87a515c0637c3/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/066f493cb7d990cafa5df1ece5ebc364/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/antoinecarlu/.gradle/caches/transforms-3/fbc194eba11aaeb039719e7e13e4b256/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/antoinecarlu/.gradle/caches/transforms-3/e0cb940c94d8e965bf9447e30eba0a82/transformed/activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b0e32f31edaac93d23bbb15fd88670c9/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/f967ef6252e4ec79b8a489b7b97a4a74/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/8255cf8f73e0ec2d884b3aa8102e6cd4/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/c49cd9f9e70a62c0cfb6a9c057db283b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/antoinecarlu/.gradle/caches/transforms-3/cf7ed2c7db25c1ed83dad3026c9a2688/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/5d6dbb7a2526cb46a310f1fa772a8328/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/c17573ade799759c56baf884a28f8de6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/064f6efcf72e45025c96c41bb0313fb3/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/bf2a6d46c92d2b1b015ce44f75d834ab/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/f4e7914e58ba093567760f9d22f3626d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/722cfa06d51a32340f337ac9798393bf/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/62c5e7261b28a421717026579decefb0/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/6182fe6d65ef8961a040b52a46bdfbf6/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/2365384ad980976d11b4bd9d48d00571/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/a7e0ea50429fb1a567786ffa9300275b/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/2e2ef0c2ea0d78e691f994ec68600c77/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/bb9750cbd2b4a57b272a0039ca8044e2/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/ed0dcc84bb4da1170b45e819be0fa879/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1f624a3ec658e1a90eb17b72d8f4e5aa/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/antoinecarlu/.gradle/caches/transforms-3/4b621581b14be943fef7e9025808a5ef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/be6d87ce73c1cf72008410442969a421/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/eb59ad3ff2cc3f8ea455ecf10b9a5b47/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/3c7efc5cec818226d826683f64344df5/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/94c1e08774be1a91ac7aa4bf2cb72cb3/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/fe726d578f90e61f945e51ad06a99ee0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/dc95db927df936e003ea23f2b843af5c/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/4a128805ae54552b7183634231e39ff5/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/ae4109ec1e873f2074e4c3a60211a759/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/ecedc5f3ab040d38a3f91c4d4cb8ae45/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:3:5-39
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:4:5-39
 		INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:5:1-70
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:6:1-70
 	android:name
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:5:18-67
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:6:18-67
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:6:1-67
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:7:1-67
 	android:name
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:6:18-65
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:7:18-65
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:7:1-74
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:8:1-9:41
+	tools:ignore
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:9:5-38
 	android:name
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:7:18-72
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:8:18-72
 uses-permission#android.permission.BLUETOOTH
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:8:1-63
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:10:1-63
 	android:name
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:8:18-61
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:10:18-61
 uses-permission#android.permission.SEND_SMS
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:9:1-62
-	android:name
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:9:18-60
-uses-permission#android.permission.RECEIVE_SMS
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:10:1-65
-	android:name
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:10:18-63
-uses-permission#android.permission.READ_SMS
 ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:11:1-62
 	android:name
 		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:11:18-60
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:12:1-65
+	android:name
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:12:18-63
+uses-permission#android.permission.READ_SMS
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:13:1-62
+	android:name
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:13:18-60
+uses-permission#android.permission.INTERNET
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:14:1-62
+	android:name
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:14:18-60
 application
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:12:5-29:19
-MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/717709783950e9434de677aec6562a19/transformed/play-services-location-18.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/717709783950e9434de677aec6562a19/transformed/play-services-location-18.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.material:material:1.4.0] /Users/antoinecarlu/.gradle/caches/transforms-3/5a93eff03bf8fe774b3f017711229a9a/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0] /Users/antoinecarlu/.gradle/caches/transforms-3/5a93eff03bf8fe774b3f017711229a9a/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/antoinecarlu/.gradle/caches/transforms-3/1c2650bf87a8433398d47b6a0cbffc96/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/antoinecarlu/.gradle/caches/transforms-3/1c2650bf87a8433398d47b6a0cbffc96/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/af36641346b24ec91dddc629c21b5f56/transformed/play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/af36641346b24ec91dddc629c21b5f56/transformed/play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/370a1532f1259dd526c956656a780416/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/370a1532f1259dd526c956656a780416/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/antoinecarlu/.gradle/caches/transforms-3/71eaf88862d11480755394420427ce85/transformed/play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/antoinecarlu/.gradle/caches/transforms-3/71eaf88862d11480755394420427ce85/transformed/play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/8f1f5c87ada37790b087320668cea045/transformed/play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/8f1f5c87ada37790b087320668cea045/transformed/play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1c6bf066d86cb24cdbec24ff431f26f8/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1c6bf066d86cb24cdbec24ff431f26f8/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/antoinecarlu/.gradle/caches/transforms-3/4acf5e1ffd3dd0501ffb513566a1fad9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/antoinecarlu/.gradle/caches/transforms-3/4acf5e1ffd3dd0501ffb513566a1fad9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:15:5-32:19
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/731940417dd68d7cbf1a1138f413b741/transformed/play-services-location-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/731940417dd68d7cbf1a1138f413b741/transformed/play-services-location-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/antoinecarlu/.gradle/caches/transforms-3/49dd37bf10937f4a5031c2e2032cd3be/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/antoinecarlu/.gradle/caches/transforms-3/49dd37bf10937f4a5031c2e2032cd3be/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/antoinecarlu/.gradle/caches/transforms-3/4d71e3e19f302f0b9574236fa79cef70/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/antoinecarlu/.gradle/caches/transforms-3/4d71e3e19f302f0b9574236fa79cef70/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1cc2b367f149bb3b019e76f79b6bc95b/transformed/play-services-base-18.0.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1cc2b367f149bb3b019e76f79b6bc95b/transformed/play-services-base-18.0.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/27c5873497c0cfdfba11e55104c496cc/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/27c5873497c0cfdfba11e55104c496cc/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/514d66b6b822f71e4f7c50e215ecce5c/transformed/play-services-tasks-18.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/514d66b6b822f71e4f7c50e215ecce5c/transformed/play-services-tasks-18.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/732ce7e397b7f0acc6a87a515c0637c3/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/732ce7e397b7f0acc6a87a515c0637c3/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/6182fe6d65ef8961a040b52a46bdfbf6/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/6182fe6d65ef8961a040b52a46bdfbf6/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/antoinecarlu/.gradle/caches/transforms-3/4b621581b14be943fef7e9025808a5ef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/antoinecarlu/.gradle/caches/transforms-3/4b621581b14be943fef7e9025808a5ef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1c6bf066d86cb24cdbec24ff431f26f8/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/6182fe6d65ef8961a040b52a46bdfbf6/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:17:9-35
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:18:9-41
 	android:roundIcon
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:16:9-54
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:19:9-54
 	android:icon
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:14:9-43
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:17:9-43
 	android:allowBackup
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:18:9-50
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:21:9-50
 activity#com.example.dropdownmenu.PageSaisie
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:19:9-26:20
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:22:9-29:20
 	android:exported
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:21:13-36
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:20:13-39
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:23:13-39
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:22:13-25:29
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:27:27-74
 activity#com.example.dropdownmenu.PageSms
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:27:9-54
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:30:9-54
 	android:name
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:27:19-42
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:30:19-42
 activity#com.example.dropdownmenu.PageModification
-ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:28:9-63
+ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:31:9-63
 	android:name
-		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:28:19-51
+		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml:31:19-51
 uses-sdk
 INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml
 INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/717709783950e9434de677aec6562a19/transformed/play-services-location-18.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/717709783950e9434de677aec6562a19/transformed/play-services-location-18.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.material:material:1.4.0] /Users/antoinecarlu/.gradle/caches/transforms-3/5a93eff03bf8fe774b3f017711229a9a/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0] /Users/antoinecarlu/.gradle/caches/transforms-3/5a93eff03bf8fe774b3f017711229a9a/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/antoinecarlu/.gradle/caches/transforms-3/1c2650bf87a8433398d47b6a0cbffc96/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/antoinecarlu/.gradle/caches/transforms-3/1c2650bf87a8433398d47b6a0cbffc96/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/antoinecarlu/.gradle/caches/transforms-3/33c9692ec212d129fc327a42a91ce4a3/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/antoinecarlu/.gradle/caches/transforms-3/33c9692ec212d129fc327a42a91ce4a3/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/af36641346b24ec91dddc629c21b5f56/transformed/play-services-base-17.5.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/af36641346b24ec91dddc629c21b5f56/transformed/play-services-base-17.5.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/370a1532f1259dd526c956656a780416/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/370a1532f1259dd526c956656a780416/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/antoinecarlu/.gradle/caches/transforms-3/71eaf88862d11480755394420427ce85/transformed/play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/antoinecarlu/.gradle/caches/transforms-3/71eaf88862d11480755394420427ce85/transformed/play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/8f1f5c87ada37790b087320668cea045/transformed/play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/8f1f5c87ada37790b087320668cea045/transformed/play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b975d4bc4d6d45f491a86fff0fa3caaf/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b975d4bc4d6d45f491a86fff0fa3caaf/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] /Users/antoinecarlu/.gradle/caches/transforms-3/e7d6078c82126b4784a754ea127c878a/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] /Users/antoinecarlu/.gradle/caches/transforms-3/e7d6078c82126b4784a754ea127c878a/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] /Users/antoinecarlu/.gradle/caches/transforms-3/2b9535999de0ac7c2761064a98e6f823/transformed/activity-1.2.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] /Users/antoinecarlu/.gradle/caches/transforms-3/2b9535999de0ac7c2761064a98e6f823/transformed/activity-1.2.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/antoinecarlu/.gradle/caches/transforms-3/2fbf2930bd9fb2a7ba200c280008ba63/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/antoinecarlu/.gradle/caches/transforms-3/2fbf2930bd9fb2a7ba200c280008ba63/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/f33401e088e03b4906c1e1ee487642e4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/f33401e088e03b4906c1e1ee487642e4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/fe0fd5ae30eba395a4c7b39f593407e5/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/fe0fd5ae30eba395a4c7b39f593407e5/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/ab31e87eda470bd398b04a6c1f020d62/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/ab31e87eda470bd398b04a6c1f020d62/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b96256539dbd15fe05ef3f774d34b33b/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b96256539dbd15fe05ef3f774d34b33b/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1282e2a4b56306d4b655af35a574b455/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1282e2a4b56306d4b655af35a574b455/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/c51b904150fd2875fe24ebca6a6abd7f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/c51b904150fd2875fe24ebca6a6abd7f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1b2c2bc523e43a8695e5871c17c75f28/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1b2c2bc523e43a8695e5871c17c75f28/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/aa92256759ef0c53a213da8083e00652/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/aa92256759ef0c53a213da8083e00652/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/f6bfb8387aa67fa73508f490ecd23a95/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/f6bfb8387aa67fa73508f490ecd23a95/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/0669cfa2680cb1a246f3cde1cbb2ad91/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/0669cfa2680cb1a246f3cde1cbb2ad91/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/3d5ce58965b903c0a1e8c29e9c793adb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/3d5ce58965b903c0a1e8c29e9c793adb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1c6bf066d86cb24cdbec24ff431f26f8/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1c6bf066d86cb24cdbec24ff431f26f8/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b1ff8782cfcecfc397dad65b90e9c690/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b1ff8782cfcecfc397dad65b90e9c690/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/e9ae20e8079484d090bfa74860d52111/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/e9ae20e8079484d090bfa74860d52111/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/e04496786906814db94b56fa73485fda/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/e04496786906814db94b56fa73485fda/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/fab91f2a09ab99150b828e3da0c20b68/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/fab91f2a09ab99150b828e3da0c20b68/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/f557084dc67a47ec19b88ea9dd5bd78f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/f557084dc67a47ec19b88ea9dd5bd78f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/fa3659a04c6e45d556b5f8662112b28b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/fa3659a04c6e45d556b5f8662112b28b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/antoinecarlu/.gradle/caches/transforms-3/4acf5e1ffd3dd0501ffb513566a1fad9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/antoinecarlu/.gradle/caches/transforms-3/4acf5e1ffd3dd0501ffb513566a1fad9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/36b41f1cb5ac05fa3d5523198ccb9ec5/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/36b41f1cb5ac05fa3d5523198ccb9ec5/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/bf204cc5d1ee021a0b779a40e33c278f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/bf204cc5d1ee021a0b779a40e33c278f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/11d2d4457fb0da6aec09850e84a11749/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/11d2d4457fb0da6aec09850e84a11749/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/86cac07897472df51478ab51cbbaba04/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/86cac07897472df51478ab51cbbaba04/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b72326ebc58ae513a4b2ca23b3b41f53/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b72326ebc58ae513a4b2ca23b3b41f53/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/56a60aa11c00550ac2067dc311230fea/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/56a60aa11c00550ac2067dc311230fea/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/5c31521eb266c26ef211a1f53b56b07e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/5c31521eb266c26ef211a1f53b56b07e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/66860c319137074465b1f3af9d4ca7e4/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/66860c319137074465b1f3af9d4ca7e4/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/26c4f5c27e161f1d7db0ebabf0f8941f/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/26c4f5c27e161f1d7db0ebabf0f8941f/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/731940417dd68d7cbf1a1138f413b741/transformed/play-services-location-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/731940417dd68d7cbf1a1138f413b741/transformed/play-services-location-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/antoinecarlu/.gradle/caches/transforms-3/49dd37bf10937f4a5031c2e2032cd3be/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/antoinecarlu/.gradle/caches/transforms-3/49dd37bf10937f4a5031c2e2032cd3be/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/antoinecarlu/.gradle/caches/transforms-3/4d71e3e19f302f0b9574236fa79cef70/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/antoinecarlu/.gradle/caches/transforms-3/4d71e3e19f302f0b9574236fa79cef70/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/antoinecarlu/.gradle/caches/transforms-3/bf3c829ff63d9723e4885b938f8b52da/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/antoinecarlu/.gradle/caches/transforms-3/bf3c829ff63d9723e4885b938f8b52da/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1cc2b367f149bb3b019e76f79b6bc95b/transformed/play-services-base-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1cc2b367f149bb3b019e76f79b6bc95b/transformed/play-services-base-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/27c5873497c0cfdfba11e55104c496cc/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/27c5873497c0cfdfba11e55104c496cc/transformed/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/514d66b6b822f71e4f7c50e215ecce5c/transformed/play-services-tasks-18.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/514d66b6b822f71e4f7c50e215ecce5c/transformed/play-services-tasks-18.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/732ce7e397b7f0acc6a87a515c0637c3/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/732ce7e397b7f0acc6a87a515c0637c3/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/066f493cb7d990cafa5df1ece5ebc364/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/066f493cb7d990cafa5df1ece5ebc364/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/antoinecarlu/.gradle/caches/transforms-3/fbc194eba11aaeb039719e7e13e4b256/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/antoinecarlu/.gradle/caches/transforms-3/fbc194eba11aaeb039719e7e13e4b256/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/antoinecarlu/.gradle/caches/transforms-3/e0cb940c94d8e965bf9447e30eba0a82/transformed/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/antoinecarlu/.gradle/caches/transforms-3/e0cb940c94d8e965bf9447e30eba0a82/transformed/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b0e32f31edaac93d23bbb15fd88670c9/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/antoinecarlu/.gradle/caches/transforms-3/b0e32f31edaac93d23bbb15fd88670c9/transformed/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/f967ef6252e4ec79b8a489b7b97a4a74/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/f967ef6252e4ec79b8a489b7b97a4a74/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/8255cf8f73e0ec2d884b3aa8102e6cd4/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/8255cf8f73e0ec2d884b3aa8102e6cd4/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/c49cd9f9e70a62c0cfb6a9c057db283b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/c49cd9f9e70a62c0cfb6a9c057db283b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/antoinecarlu/.gradle/caches/transforms-3/cf7ed2c7db25c1ed83dad3026c9a2688/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/antoinecarlu/.gradle/caches/transforms-3/cf7ed2c7db25c1ed83dad3026c9a2688/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/5d6dbb7a2526cb46a310f1fa772a8328/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/5d6dbb7a2526cb46a310f1fa772a8328/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/c17573ade799759c56baf884a28f8de6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/c17573ade799759c56baf884a28f8de6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/064f6efcf72e45025c96c41bb0313fb3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/064f6efcf72e45025c96c41bb0313fb3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/bf2a6d46c92d2b1b015ce44f75d834ab/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/bf2a6d46c92d2b1b015ce44f75d834ab/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/f4e7914e58ba093567760f9d22f3626d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/f4e7914e58ba093567760f9d22f3626d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/722cfa06d51a32340f337ac9798393bf/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/722cfa06d51a32340f337ac9798393bf/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/62c5e7261b28a421717026579decefb0/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/62c5e7261b28a421717026579decefb0/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/6182fe6d65ef8961a040b52a46bdfbf6/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/6182fe6d65ef8961a040b52a46bdfbf6/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/2365384ad980976d11b4bd9d48d00571/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/2365384ad980976d11b4bd9d48d00571/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/a7e0ea50429fb1a567786ffa9300275b/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/a7e0ea50429fb1a567786ffa9300275b/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/2e2ef0c2ea0d78e691f994ec68600c77/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/2e2ef0c2ea0d78e691f994ec68600c77/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/bb9750cbd2b4a57b272a0039ca8044e2/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/bb9750cbd2b4a57b272a0039ca8044e2/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/ed0dcc84bb4da1170b45e819be0fa879/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/ed0dcc84bb4da1170b45e819be0fa879/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1f624a3ec658e1a90eb17b72d8f4e5aa/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1f624a3ec658e1a90eb17b72d8f4e5aa/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/antoinecarlu/.gradle/caches/transforms-3/4b621581b14be943fef7e9025808a5ef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/antoinecarlu/.gradle/caches/transforms-3/4b621581b14be943fef7e9025808a5ef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/be6d87ce73c1cf72008410442969a421/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/be6d87ce73c1cf72008410442969a421/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/eb59ad3ff2cc3f8ea455ecf10b9a5b47/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/eb59ad3ff2cc3f8ea455ecf10b9a5b47/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/3c7efc5cec818226d826683f64344df5/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/antoinecarlu/.gradle/caches/transforms-3/3c7efc5cec818226d826683f64344df5/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/94c1e08774be1a91ac7aa4bf2cb72cb3/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/antoinecarlu/.gradle/caches/transforms-3/94c1e08774be1a91ac7aa4bf2cb72cb3/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/fe726d578f90e61f945e51ad06a99ee0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/fe726d578f90e61f945e51ad06a99ee0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/dc95db927df936e003ea23f2b843af5c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/dc95db927df936e003ea23f2b843af5c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/4a128805ae54552b7183634231e39ff5/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/4a128805ae54552b7183634231e39ff5/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/ae4109ec1e873f2074e4c3a60211a759/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/ae4109ec1e873f2074e4c3a60211a759/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/ecedc5f3ab040d38a3f91c4d4cb8ae45/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/ecedc5f3ab040d38a3f91c4d4cb8ae45/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml
 INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -242,16 +250,16 @@ INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/And
 		ADDED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/antoinecarlu/Downloads/Projet-Patient-main/app/src/main/AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/af36641346b24ec91dddc629c21b5f56/transformed/play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1cc2b367f149bb3b019e76f79b6bc95b/transformed/play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/af36641346b24ec91dddc629c21b5f56/transformed/play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1cc2b367f149bb3b019e76f79b6bc95b/transformed/play-services-base-18.0.0/AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/af36641346b24ec91dddc629c21b5f56/transformed/play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1cc2b367f149bb3b019e76f79b6bc95b/transformed/play-services-base-18.0.0/AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/af36641346b24ec91dddc629c21b5f56/transformed/play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/1cc2b367f149bb3b019e76f79b6bc95b/transformed/play-services-base-18.0.0/AndroidManifest.xml:20:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/8f1f5c87ada37790b087320668cea045/transformed/play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/732ce7e397b7f0acc6a87a515c0637c3/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/8f1f5c87ada37790b087320668cea045/transformed/play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/732ce7e397b7f0acc6a87a515c0637c3/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/antoinecarlu/.gradle/caches/transforms-3/8f1f5c87ada37790b087320668cea045/transformed/play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/antoinecarlu/.gradle/caches/transforms-3/732ce7e397b7f0acc6a87a515c0637c3/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
