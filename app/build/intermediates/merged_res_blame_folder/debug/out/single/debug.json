@@ -8,22 +8,6 @@
         "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/layout/dropdown.xml"
     },
     {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_custom_button3.xml.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/custom_button3.xml"
-    },
-    {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_button_default_orange.png.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/button_default_orange.png"
-    },
-    {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_ic_contact.xml.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/ic_contact.xml"
-    },
-    {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_ic_add.xml.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/ic_add.xml"
-    },
-    {
         "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_custom_button1.xml.flat",
         "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/custom_button1.xml"
     },
@@ -36,32 +20,12 @@
         "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/btn_panne.png"
     },
     {
-        "merged": "com.example.dropdownmenu.app-merged_res-21:/layout_pagesms.xml.flat",
-        "source": "com.example.dropdownmenu.app-main-23:/layout/pagesms.xml"
-    },
-    {
         "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_custom_button_probleme.xml.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/custom_button_probleme.xml"
-    },
-    {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-pngs-16:/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_button_default.png.flat",
         "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/button_default.png"
-    },
-    {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_ic_back.xml.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/ic_back.xml"
     },
     {
         "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_btn_probleme.png.flat",
@@ -70,10 +34,6 @@
     {
         "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_custom_button_probleme_medical.xml.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/custom_button_probleme_medical.xml"
     },
     {
         "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/layout_pagemodification.xml.flat",
@@ -92,18 +52,6 @@
         "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_button_pushed_green.png.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/button_pushed_green.png"
-    },
-    {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_button_pressed.png.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/button_pressed.png"
-    },
-    {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_ic_delete_all.xml.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/ic_delete_all.xml"
-    },
-    {
         "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/layout_list_contact.xml.flat",
         "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/layout/list_contact.xml"
     },
@@ -116,28 +64,12 @@
         "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/custom_button2.xml"
     },
     {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
         "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/layout_pagesaisie.xml.flat",
         "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/layout/pagesaisie.xml"
     },
     {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_ic_edit.xml.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/ic_edit.xml"
-    },
-    {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_button_default_green.png.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/button_default_green.png"
-    },
-    {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_ic_update.xml.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/ic_update.xml"
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_medicale.webp.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/medicale.webp"
     },
     {
         "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_ic_delete.xml.flat",
@@ -146,10 +78,6 @@
     {
         "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_custom_button_panne.xml.flat",
         "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/custom_button_panne.xml"
-    },
-    {
-        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_button_disabled.png.flat",
-        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/button_disabled.png"
     },
     {
         "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/mipmap-mdpi_ic_launcher.png.flat",
@@ -166,6 +94,98 @@
     {
         "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_logo.png.flat",
         "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/logo.png"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_panne.jpg.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/panne.jpg"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_custom_button3.xml.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/custom_button3.xml"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_button_default_orange.png.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/button_default_orange.png"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_ic_contact.xml.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/ic_contact.xml"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_ic_add.xml.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_button_default_yellow.png.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/button_default_yellow.png"
+    },
+    {
+        "merged": "com.example.dropdownmenu.app-merged_res-21:/layout_pagesms.xml.flat",
+        "source": "com.example.dropdownmenu.app-main-23:/layout/pagesms.xml"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_custom_button_probleme.xml.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/custom_button_probleme.xml"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-pngs-16:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_ic_back.xml.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_custom_button_probleme_medical.xml.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/custom_button_probleme_medical.xml"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_button_pushed_green.png.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/button_pushed_green.png"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_button_pressed.png.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/button_pressed.png"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_aide.jpg.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/aide.jpg"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_ic_delete_all.xml.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/ic_delete_all.xml"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_button_pushed_yellow.png.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/button_pushed_yellow.png"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_ic_edit.xml.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_button_default_green.png.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/button_default_green.png"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_ic_update.xml.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/ic_update.xml"
+    },
+    {
+        "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/drawable_button_disabled.png.flat",
+        "source": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-main-23:/drawable/button_disabled.png"
     },
     {
         "merged": "/Users/antoinecarlu/.gradle/daemon/7.5/com.example.dropdownmenu.app-merged_res-21:/layout_pagesms.xml.flat",
