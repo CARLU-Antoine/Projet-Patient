@@ -78,30 +78,30 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/premierButtonSms"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
             app:layout_constraintBottom_toBottomOf="@id/secondButtonSms"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:background="@drawable/custom_button1"/>
+            android:background="@drawable/custom_button_probleme"/>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/secondButtonSms"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
             app:layout_constraintBottom_toBottomOf="@id/premierButtonSms"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@id/troisiemeButtonSms"
-            android:background="@drawable/custom_button2"/>
+            android:background="@drawable/custom_button_probleme_medical"/>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/troisiemeButtonSms"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            android:background="@drawable/custom_button3"/>
+            android:background="@drawable/custom_button_panne"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
