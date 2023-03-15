@@ -119,6 +119,17 @@ public class PageSms extends AppCompatActivity {
         prenomModif = sauvegardePrenomModif.loadPrenomModif();
 
 
+        if(nomModif.isEmpty() && prenomModif.isEmpty()) {
+            //aficher le nom et le prénom modifiés du patient s'ils ont étaient modifié dans la page Sms
+            informationsUtilisateur.setText("Patient "+ nomSauvegarde + " "+ prenomSauvegarde);
+        }else if (!nomModif.isEmpty() && !prenomModif.isEmpty()){
+            informationsUtilisateur.setText("Patient "+ nomModif + " "+ prenomModif);
+        }else if(!nomModif.isEmpty() && prenomModif.isEmpty()){
+            informationsUtilisateur.setText("Patient "+ nomModif + " "+ prenomSauvegarde);
+        }else if(!prenomModif.isEmpty() && nomModif.isEmpty()){
+            informationsUtilisateur.setText("Patient "+ nomSauvegarde + " "+ prenomModif);
+        }
+
         // Demander l'autorisation de localisation
         if (ContextCompat.checkSelfPermission(
                 this, Manifest.permission.ACCESS_FINE_LOCATION) !=
@@ -220,8 +231,6 @@ public class PageSms extends AppCompatActivity {
 
                                     String messsageUtilisateurPanne, messsageUtilisateurProblemeMedical, messsageUtilisateurBesoinAide;
                                     if(nomModif.isEmpty() && prenomModif.isEmpty()) {
-                                        //aficher le nom et le prénom modifiés du patient s'ils ont étaient modifié dans la page Sms
-                                        informationsUtilisateur.setText("Patient "+ nomSauvegarde + " "+ prenomSauvegarde);
                                         messsageUtilisateurPanne="Le patient "+prenomSauvegarde+" "+nomSauvegarde+" a une panne ! Il est à la latitude : "+latitude + " et à la longitude : " + longitude+ " .";
                                         messsageUtilisateurProblemeMedical="Le patient "+prenomSauvegarde+" "+nomSauvegarde+" a un problème medical! Il est à la latitude : "+latitude + " et à la longitude : " + longitude+ " .";
                                         messsageUtilisateurBesoinAide="Le patient "+prenomSauvegarde+" "+nomSauvegarde+" a besoin d'aide ! Il est à la latitude : "+latitude + " et à la longitude : " + longitude+ " .";
@@ -230,7 +239,6 @@ public class PageSms extends AppCompatActivity {
                                         smsProblemeMedical = new Sms(messsageUtilisateurProblemeMedical,PageSms.this);
                                         smsBesoinAide = new Sms(messsageUtilisateurBesoinAide,PageSms.this);
                                     }else if (!nomModif.isEmpty() && !prenomModif.isEmpty()){
-                                        informationsUtilisateur.setText("Patient "+ nomModif + " "+ prenomModif);
                                         messsageUtilisateurPanne="Le patient "+prenomModif+" "+nomModif+" a une panne ! Il est à la latitude : "+latitude + " et à la longitude : " + longitude+ " .";
                                         messsageUtilisateurProblemeMedical="Le patient "+prenomModif+" "+nomModif+" a un problème medical! Il est à la latitude : "+latitude + " et à la longitude : " + longitude+ " .";
                                         messsageUtilisateurBesoinAide="Le patient "+prenomModif+" "+nomModif+" a besoin d'aide ! Il est à la latitude : "+latitude + " et la à longitude : " + longitude+ " .";
@@ -240,7 +248,6 @@ public class PageSms extends AppCompatActivity {
                                         smsProblemeMedical = new Sms(messsageUtilisateurProblemeMedical,PageSms.this);
                                         smsBesoinAide = new Sms(messsageUtilisateurBesoinAide,PageSms.this);
                                     }else if(!nomModif.isEmpty() && prenomModif.isEmpty()){
-                                        informationsUtilisateur.setText("Patient "+ nomModif + " "+ prenomSauvegarde);
                                         messsageUtilisateurPanne="Le patient "+prenomSauvegarde+" "+nomModif+" a une panne ! Il est à la latitude : "+latitude + " et à la longitude : " + longitude+ " .";
                                         messsageUtilisateurProblemeMedical="Le patient "+prenomSauvegarde+" "+nomModif+" a un problème medical! Il est à la latitude : "+latitude + " et à la longitude : " + longitude+ " .";
                                         messsageUtilisateurBesoinAide="Le patient "+prenomSauvegarde+" "+nomModif+" a besoin d'aide ! Il est à la latitude : "+latitude + " et à la longitude : " + longitude+ " .";
@@ -250,7 +257,6 @@ public class PageSms extends AppCompatActivity {
                                         smsProblemeMedical = new Sms(messsageUtilisateurProblemeMedical,PageSms.this);
                                         smsBesoinAide = new Sms(messsageUtilisateurBesoinAide,PageSms.this);
                                     }else if(!prenomModif.isEmpty() && nomModif.isEmpty()){
-                                        informationsUtilisateur.setText("Patient "+ nomSauvegarde + " "+ prenomModif);
                                         messsageUtilisateurPanne="Le patient "+prenomModif+" "+nomSauvegarde+" a une panne ! Il est à la latitude : "+latitude + " et à la longitude : " + longitude+ " .";
                                         messsageUtilisateurProblemeMedical="Le patient "+prenomModif+" "+nomSauvegarde+" a un problème medical! Il est à la latitude : "+latitude + " et à la longitude : " + longitude+ " .";
                                         messsageUtilisateurBesoinAide="Le patient "+prenomModif+" "+nomSauvegarde+" a besoin d'aide !  Il est à la latitude : "+latitude + " et à la longitude : " + longitude+ " .";

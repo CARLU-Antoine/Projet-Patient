@@ -78,7 +78,7 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/premierButtonSms"
-            android:layout_width="170dp"
+            android:layout_width="160dp"
             android:layout_height="150dp"
             app:layout_constraintBottom_toBottomOf="@id/secondButtonSms"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -87,7 +87,7 @@
             android:background="@drawable/custom_button_probleme"/>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/secondButtonSms"
-            android:layout_width="170dp"
+            android:layout_width="160dp"
             android:layout_height="150dp"
             app:layout_constraintBottom_toBottomOf="@id/premierButtonSms"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -96,7 +96,7 @@
             android:background="@drawable/custom_button_probleme_medical"/>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/troisiemeButtonSms"
-            android:layout_width="170dp"
+            android:layout_width="160dp"
             android:layout_height="150dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
